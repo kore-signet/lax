@@ -1,0 +1,11 @@
+[package]
+name = "lax"
+version = "0.1.0"
+authors = ["Alis <ichythedev@gmail.com>"]
+
+[dependencies]
+lazy_static = "0.2.8"
+docopt = "0.8"
+serde = "1.0"
+serde_derive = "1.0"
+chrono = "*"
