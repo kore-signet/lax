@@ -48,4 +48,13 @@ while (i < 100) {
 for(var i = 0; i < 100; i = i + 1;) {
   print(i);
 }
+
+// Functions
+fun plus_one(i) {
+  return i + 1;
+}
+
+print(plus_one(1));
+
+// Note: Functions are like variables, witch means you can pass them to other functions. You cant do this though: function(fun (i) { return i + 1; })
 ```
